@@ -1,5 +1,5 @@
 import $ from 'jquery';
 
 $(document).ready(function() {
-  document.getElementById("demo").innerHTML = 5 + 6;
+  document.getElementById("demo").innerHTML = 14;
 })
