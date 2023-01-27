@@ -1,5 +1,6 @@
-import $ from 'jquery';
-
-$(document).ready(function() {
-  document.getElementById("demo").innerHTML = 14;
-})
+fetch('https://reqbin.com/echo/get/json', {
+   headers: {
+      'Accept': 'application/json'
+   }})
+.then(response => response.text())
+.then(text => console.log(text))
