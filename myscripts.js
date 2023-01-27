@@ -23,6 +23,4 @@ function addLine(table, line) {
   row.insertCell(COL.L_RATE).innerText = line.rate;
   row.insertCell(COL.L_TERM).innerText = line.term;
   row.insertCell(COL.L_TYPE).innerText = line.type;
-
-  console.log(line)
 }
